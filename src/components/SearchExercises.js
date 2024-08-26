@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Button, Stack, TextField, Typography } from '@mui/material'
+import { fetchData, exerciseOptions } from '../utils/fetchData';
 
 const SearchExercises = () => {
 
@@ -9,8 +10,9 @@ const SearchExercises = () => {
   const handleSearch = async () => {
       // if search exists
       if (search) {
-        const exercisesData = await fetchData();     //fetchData() is in utils folder
-        
+        const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);     //fetchData() is in utils folder ---- exerciseOptions are used to authorize the details 
+
+        console.log(exercisesData);
       }
   }
 
