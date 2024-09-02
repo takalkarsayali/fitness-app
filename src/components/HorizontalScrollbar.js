@@ -19,4 +19,4 @@ const HorizontalScrollbar = ({ data }) => {
     )
 }
 
-export default HorizontalScrollbar
+export default HorizontalScrollbar;
