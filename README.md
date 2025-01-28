@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![fitnessClub](https://github.com/user-attachments/assets/6f57dd1c-863a-4f92-835a-7ce578dd3352)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
